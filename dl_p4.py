@@ -16,7 +16,7 @@ seed = 7
 numpy.random.seed(seed)
 
 # load dataset
-dataframe = pandas.read_csv("iris.csv", header=None)
+dataframe = pandas.read_csv("input/iris.csv", header=None)
 dataset = dataframe.values
 X = dataset[:,0:4].astype(float)
 Y = dataset[:,4]
