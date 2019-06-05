@@ -1,18 +1,11 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Jun  4 18:12:43 2019
 
-@author: Shaurya Gupta
-"""
 
 #using 1 hidden layer i.e. 2 layer NN 
 
 import numpy as np # linear algebra
 import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
 import matplotlib.pyplot as plt
-# Input data files are available in the "../input/" directory.
-# For example, running this (by clicking run or pressing Shift+Enter) will list the files in the input directory
-# import warnings
+
 import warnings
 # filter warnings
 warnings.filterwarnings('ignore')

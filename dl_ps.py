@@ -1,15 +1,8 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Jun  1 04:04:20 2019
 
-@author: Shaurya Gupta
-"""
 #everything required is imported
 import numpy as np # linear algebra
 import matplotlib.pyplot as plt
-# Input data files are available in the "../input/" directory.
-# For example, running this (by clicking run or pressing Shift+Enter) will list the files in the input directory
-# import warnings
+
 import warnings
 # filter warnings
 warnings.filterwarnings('ignore')

@@ -1,17 +1,10 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Jun  5 00:56:55 2019
 
-@author: Shaurya Gupta
-"""
 import numpy as np # linear algebra
-import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
+import pandas as pd # data processing
 import matplotlib.pyplot as plt
-# Input data files are available in the "../input/" directory.
-# For example, running this (by clicking run or pressing Shift+Enter) will list the files in the input directory
-# import warnings
+
 import warnings
-# filter warnings
+
 warnings.filterwarnings('ignore')
 from subprocess import check_output
 #print(check_output(["ls", "./input"]).decode("utf8"))

@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Jun  5 02:13:23 2019
-
-@author: Shaurya Gupta
-"""
 
 
 import numpy
