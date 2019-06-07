@@ -7,6 +7,7 @@ import warnings
 # filter warnings
 warnings.filterwarnings('ignore')
 from subprocess import check_output
+
 #print(check_output(["ls", "./input"]).decode("utf8"))
 x_l = np.load('input/Sign-language-digits-dataset/X.npy')
 Y_l = np.load('input/Sign-language-digits-dataset/Y.npy')

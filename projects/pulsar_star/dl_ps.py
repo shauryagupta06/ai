@@ -10,7 +10,7 @@ import pandas
 
 
 #loading data
-dataframe = pandas.read_csv("input/pulsar_stars.csv", header=None)
+dataframe = pandas.read_csv("pulsar_stars.csv", header=None)
 dataset = dataframe.values
 X = dataset[1:-1,0:8].astype(float)
 Y = dataset[1:-1,8].astype(float)
